@@ -24,6 +24,7 @@ make_shirt('small', 'Today will be great!')
 
 print(seperator)
 
+
 def game_catalog(developer, title, hours=None):
     theGame = {'developer': developer, 'title': title}
     if hours:
@@ -31,7 +32,7 @@ def game_catalog(developer, title, hours=None):
     return theGame
 
 
-game1 = game_catalog('Square Enix', 'Final Fantasy 16','81')
+game1 = game_catalog('Square Enix', 'Final Fantasy 16', '81')
 game2 = game_catalog('ArrowHead', 'Helldivers')
 game3 = game_catalog('Blizzard', 'Diablo 4', '231')
 
