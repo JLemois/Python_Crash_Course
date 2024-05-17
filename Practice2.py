@@ -84,7 +84,7 @@ for new_username in new_usernames:
 
 print('\r\n'+'_'*60+'\r\n')
 
-#ordinal numbers list printing with if/else
+# ordinal numbers list printing with if/else
 num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for num in num_list:
     if num == 1:

@@ -47,10 +47,11 @@ for people, number in peopleNumbers.items():
         print(f'\t{people} is lucky.')
 
 print('\r\n'+'_'*60+'\r\n')
-# create 2 more people then add all 3 (top one) to new list
+# create 2 more people than add all 3 (top one) to new list
 person2 = {'FirstName': 'Joe', 'LastName': 'Leemuss', 'Age': 21, 'Gender': 'Male', 'City': 'Charleston'}
 person3 = {'FirstName': 'Jon', 'LastName': 'Smith', 'Age': 25, 'Gender': 'Female', 'City': 'Spartanburg'}
 people = [person1, person2, person3]
 for individual in people:
-    print(f'{individual["FirstName"]} {individual["LastName"]} is a {individual["Age"]} year old {individual["Gender"]} '
+    print(f'{individual["FirstName"]} {individual["LastName"]} is a {individual["Age"]} '
+          f'year old {individual["Gender"]} '
           f'that lives in {individual["City"]}.')
