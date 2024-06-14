@@ -62,7 +62,11 @@ secondRestaurant.open_restaurant()
 
 thirdRestaurant = Restaurant('Smoothie King', 'Smoothies')
 thirdRestaurant.describe_restaurant()
+<<<<<<< HEAD
 thirdRestaurant.alter_star_rating(2)  # default rating is 3
+=======
+thirdRestaurant.alter_star_rating(2) # default rating is 3
+>>>>>>> origin/main
 thirdRestaurant.open_restaurant()
 
 print(seperator)
